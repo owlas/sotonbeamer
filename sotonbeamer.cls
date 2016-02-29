@@ -54,6 +54,12 @@
 
 %%%%%%%%%%%%%%%%%%
 
+%% Use a 10mm border
+\setbeamersize{text margin left=10mm,text margin right=10mm}
+
+%% turn off the presentation controls
+\setbeamertemplate{navigation symbols}{}
+
 % The title page template
 \defbeamertemplate*{title page}{customized}[1][]
 {
@@ -63,18 +69,21 @@
   \usebeamerfont{subtitle}\usebeamercolor[fg]{subtitle}\insertsubtitle\par
   \bigskip
   \usebeamerfont{author}\insertauthor\par
+  \bigskip
   \usebeamerfont{institute}\insertinstitute\par
+  \bigskip
   \usebeamerfont{date}\insertdate\par
 }
 
 % add the logo header and the footer
 \setbeamertemplate{headline}{
-	\vskip25pt % horizontal line
-	\vskip-21pt\hspace{2pt}\hfill\includegraphics[height=7mm]{img/sponsor-wo}\hspace{3.5mm}\includegraphics[height=7mm]{img/uos_white_large}\hspace{3.5mm} % logo on the right
+        \vspace{7mm}
+        \hspace{2pt}\hfill\includegraphics[height=7mm]{img/uos_white_large}
+        \hspace{3.5mm}
+        % logo on the right
 }
 
 \setbeamertemplate{footline}{
-	\vskip-8pt % horizontal line
-	\hspace{12cm} \insertframenumber/\inserttotalframenumber
+	\vspace{10mm}\hspace{12cm} \insertframenumber/\inserttotalframenumber
 	\vskip4pt
 }
