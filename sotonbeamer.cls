@@ -1,3 +1,9 @@
+%% A beamer class for University of Southampton presentations
+%% See license file
+%%
+%% Contributors:
+%% Oliver Laslett and Jonothan Waters
+
 \LoadClass{beamer}
 
 % use latex serif font
