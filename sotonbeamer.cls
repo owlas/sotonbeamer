@@ -16,6 +16,8 @@
 \usepackage{unicode-math}
 \setmathfont{TeX Gyre Pagella Math}
 
+% colour tools
+\usepackage{xcolor}
 
 
 %%%%%%%%%%%%%%
