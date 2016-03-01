@@ -18,6 +18,7 @@
 
 % colour tools
 \usepackage{xcolor}
+\usepackage{pgf} % use for transparency
 
 
 %%%%%%%%%%%%%%
@@ -39,6 +40,7 @@
 \definecolor{sotonbrn}{rgb}{.54118 .25490 .16863} % soton brown
 \definecolor{sotonpnk}{rgb}{.88627 .41176 .62353} % soton pink
 \definecolor{sotonppl}{rgb}{.32549 .12157 .26667} % soton purple
+\definecolor{sotonbti}{HTML}{ccdaea} % soton blue tinted white
 
 
 \setbeamertemplate{background canvas}[vertical shading][top=sotonblu,bottom=sotoncya]
@@ -49,10 +51,10 @@
 \setbeamercolor{frametitle}{fg=sotonyel}
 \setbeamercolor{alerted text}{fg=sotonyel}
 \setbeamercolor{normal text}{fg=white}
-\setbeamercolor{titlelike}{fg=sotonyel}
-\setbeamercolor{author}{fg=white}
-\setbeamercolor{date}{fg=white}
-\setbeamercolor{item}{fg=white}
+\setbeamercolor{titlelike}{fg=sotonbti}
+\setbeamercolor{author}{fg=sotonbti}
+\setbeamercolor{date}{fg=sotonbti}
+\setbeamercolor{item}{fg=sotonbti}
 
 %%%%%%%%%%%%%%%%%%
 
