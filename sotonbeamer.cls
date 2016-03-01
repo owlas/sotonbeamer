@@ -69,6 +69,7 @@
 {
   \setbeamertemplate{headline}{}
   \setbeamertemplate{footline}{}
+  \vspace{6mm}
   \usebeamerfont{title}\inserttitle\par
   \usebeamerfont{subtitle}\usebeamercolor[fg]{subtitle}\insertsubtitle\par
   \bigskip
