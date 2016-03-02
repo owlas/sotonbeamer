@@ -82,13 +82,14 @@
 
 % add the logo header and the footer
 \setbeamertemplate{headline}{
-        \vspace{7mm}
+        \vspace{5mm}
         \hspace{2pt}\hfill\includegraphics[height=7mm]{img/uos_white_large}
         \hspace{3.5mm}
         % logo on the right
 }
 
 \setbeamertemplate{footline}{
-	\vspace{10mm}\hspace{12cm} \insertframenumber/\inserttotalframenumber
+  \vskip-8pt
+  \hspace{12cm} \insertframenumber/\inserttotalframenumber
 	\vskip4pt
 }
