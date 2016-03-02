@@ -93,3 +93,13 @@
   \hspace{12cm} \insertframenumber/\inserttotalframenumber
 	\vskip4pt
 }
+
+
+%% a new command to mark the backup slides
+\newcommand{\backupbegin}{
+   \newcounter{finalframe}
+   \setcounter{finalframe}{\value{framenumber}}
+}
+\newcommand{\backupend}{
+   \setcounter{framenumber}{\value{finalframe}}
+}
