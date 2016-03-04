@@ -55,6 +55,7 @@
 \setbeamercolor{author}{fg=sotonbti}
 \setbeamercolor{date}{fg=sotonbti}
 \setbeamercolor{item}{fg=sotonbti}
+\setbeamercolor{block title}{fg=sotonyel}
 
 %%%%%%%%%%%%%%%%%%
 
